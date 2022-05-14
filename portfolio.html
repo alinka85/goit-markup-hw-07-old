@@ -15,14 +15,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./scss/styles.css" />
     <link rel="stylesheet" href="./css/form.css" />
   </head>
   <body>
     <header>
-      <div class="container navigation">
+      <div class="container navigation ">
         <nav>
-          <div class="logo-header">
+          <div class="logo header">
             <a href="./index.html" class="logo__web"
               >Web<span class="logo__studio">Studio</span></a
             >
@@ -59,24 +59,24 @@
       </div>
     </header>
     <main>
-      <section class="projects">
-        <div class="container project">
+      <section class="project">
+        <div class="project__container">
           <h1 class="hide">Сортировка</h1>
-          <ul class="button__list">
-            <li class="button__item">
-              <button type="button" class="projects-button">Все</button>
+          <ul class="button">
+            <li class="button__list">
+              <button type="button" class="button__item">Все</button>
             </li>
-            <li class="button__item">
-              <button type="button" class="projects-button">Веб-сайты</button>
+            <li class="button__list">
+              <button type="button" class="button__item">Веб-сайты</button>
             </li>
-            <li class="button__item">
-              <button type="button" class="projects-button">Приложения</button>
+            <li class="button__list">
+              <button type="button" class="button__item">Приложения</button>
             </li>
-            <li class="button__item">
-              <button type="button" class="projects-button">Дизайн</button>
+            <li class="button__list">
+              <button type="button" class="button__item">Дизайн</button>
             </li>
-            <li class="button__item">
-              <button type="button" class="projects-button">Маркетинг</button>
+            <li class="button__list">
+              <button type="button" class="button__item">Маркетинг</button>
             </li>
           </ul>
 
@@ -259,16 +259,16 @@
     </main>
     <footer>
       <div class="container">
-        <ul class="info__list">
+        <ul class="info">
           <li class="info__item">
-            <div class="logo-footer">
+            <div class="logo footer">
               <a href="./index.html" class="logo__web"
                 >Web<span class="logo__studio">Studio</span></a
               >
             </div>
             <address>
-              <ul class="contacts">
-                <li>
+              <ul >
+                <li class="info__list">
                   <a
                     href="https://goo.gl/maps/oR3F1YAG6LvCoMsa9"
                     target="_blank"
@@ -277,13 +277,13 @@
                     >г. Киев, пр-т Леси Украинки, 26</a
                   >
                 </li>
-                <li>
-                  <a href="mailto:info@devstudio.com" class="link__end"
+                <li class="info__list">
+                  <a href="mailto:info@devstudio.com" class="info__contact"
                     >info@devstudio.com</a
                   >
                 </li>
-                <li>
-                  <a href="tel:+380961111111" class="link__end"
+                <li class="info__list">
+                  <a href="tel:+380961111111" class="info__contact"
                     >+38 096 111 11 11</a
                   >
                 </li>
@@ -291,32 +291,32 @@
             </address>
           </li>
           <li class="info__item">
-            <h4 class="social__title">ПРИСОЕДИНЯЙТЕСЬ</h4>
-            <ul class="social__list">
-              <li class="social__item">
-                <a href="#" class="social__link">
-                  <svg class="social__icon" width="20" height="20">
+            <h4 class="title">ПРИСОЕДИНЯЙТЕСЬ</h4>
+            <ul class="nets">
+              <li class="nets__item">
+                <a href="#" class="nets__link">
+                  <svg width="20" height="20">
                     <use href="./images/symbol-defs.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
-              <li class="social__item">
-                <a href="#" class="social__link">
-                  <svg class="social__icon" width="20" height="20">
+              <li class="nets__item">
+                <a href="#" class="nets__link">
+                  <svg  width="20" height="20">
                     <use href="./images/symbol-defs.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
-              <li class="social__item">
-                <a href="#" class="social__link">
-                  <svg class="social__icon" width="20" height="20">
+              <li class="nets__item">
+                <a href="#" class="nets__link">
+                  <svg width="20" height="20">
                     <use href="./images/symbol-defs.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
-              <li class="social__item">
-                <a href="#" class="social__link">
-                  <svg class="social__icon" width="20px" height="20px">
+              <li class="nets__item">
+                <a href="#" class="nets__link">
+                  <svg width="20px" height="20px">
                     <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                   </svg>
                 </a>
@@ -324,7 +324,7 @@
             </ul>
           </li>
           <li class="info__item">
-            <h4 class="social__title">Подпишитесь на рассылку</h4>
+            <h4 class="title">Подпишитесь на рассылку</h4>
             <form name="form-singht" class="singht">
               <input
                 class="form-input send"
@@ -333,7 +333,7 @@
                 placeholder="E-mail"
                 required
               />
-              <button type="submit" class="main-button">
+              <button type="submit" class="main__button">
                 <span class="singht-list"
                   >Подписаться
                   <svg class="icon-singht" width="24px" height="24px">

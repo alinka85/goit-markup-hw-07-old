@@ -1,0 +1,55 @@
+.profits {
+    padding-bottom: 94px;
+    padding-top: 94px;
+    background-color: var(--title-color);
+    
+    &__list{
+        display: flex;
+    }
+     &__item {
+        min-width: 270px;
+        &::before {
+          content: "";
+          display: inline-block;
+          width: 270px;
+          height: 120px;
+          background-color: var(--projects-color);
+          background-repeat: no-repeat;
+          background-position: center;
+          margin-bottom: 30px;
+          }   
+            &:not(:last-child) {
+               margin-right: 30px;
+            }
+     }  
+    &__text {
+        margin-bottom: 0;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        color: var(--main-color);
+        margin-top: 0;
+        margin-bottom: 10px;
+          }
+        
+}
+
+
+.icon{
+ &__antenna::before {
+    background-image: url(../images/icons/antenna.svg);
+  }
+  &__clock::before {
+    background-image: url(../images/icons/clock.svg);
+  }
+  
+  &__diagram::before {
+    background-image: url(../images/icons/diagram.svg);
+  }
+  &__astronaut::before {
+    background-image: url(../images/icons/astronaut.svg);
+  }
+}
+  

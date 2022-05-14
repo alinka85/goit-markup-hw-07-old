@@ -1,0 +1,44 @@
+.mains {
+    padding: 200px 0 200px 0;
+    background-color: var(--back-color);
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/Img-overlay.jpg);
+    height: 600px;
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .main{
+    &__container{
+      text-align: center;
+    }
+       &__caption {
+            color: var(--title-color);
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.36;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            padding-bottom: 30px;
+         }
+        &__button{
+          font-size: 16px;
+          line-height: 1.87;
+          border: 0;
+          background-color: var(--link-color);
+          color: var(--title-color);
+          border-radius: 4px;
+          cursor: pointer;
+          padding: 10px 32px 10px 32px;
+          font-weight: 700;
+          width: 200px;
+          height: 50px;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        } 
+
+}

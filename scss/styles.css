@@ -679,7 +679,15 @@ button {
   padding: 20px 24px;
   border: 1px solid var(--boder-color);
 }
-.project__title__discription {
+.project__name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--main-color);
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
+}
+.project__discription {
   font-size: 16px;
   line-height: 1.8;
   padding-top: 4px;

@@ -37,8 +37,7 @@
      &:hover .project__text {
       transform: translateY(0);
     }
-    
-      }
+  }
     
       &__image {
         overflow: hidden;
@@ -65,7 +64,15 @@
       &__title {
         padding: 20px 24px;
         border: 1px solid var(--boder-color);
-           
+      }
+        &__name {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 2;
+          color: var(--main-color);
+          letter-spacing: 0.06em;
+          margin-bottom: 4px;
+        }
       &__discription {
         font-size: 16px;
         line-height: 1.8;
@@ -73,7 +80,7 @@
         color: var(--text-color);
         letter-spacing: 0.03em;
       }
-    }
+      
        
       
 .button{
